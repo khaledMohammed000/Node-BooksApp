@@ -1,0 +1,17 @@
+{
+  "name": "expressapp",
+  "description": "this a books app",
+  "main": "app.js",
+  "authors": [
+    "Mohammed Khaled"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/khaledMohammed000/Node-BooksApp",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

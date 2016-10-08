@@ -4,7 +4,8 @@
   "description": "this a books app",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,14 @@
   "bugs": {
     "url": "https://github.com/khaledMohammed000/Node-BooksApp/issues"
   },
-  "homepage": "https://github.com/khaledMohammed000/Node-BooksApp#readme"
+  "homepage": "https://github.com/khaledMohammed000/Node-BooksApp#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-jscs": "^4.0.0",
+    "gulp-jshint": "^2.0.1",
+    "jshint-stylish": "^2.2.1"
+  }
 }
